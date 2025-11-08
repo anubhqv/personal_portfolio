@@ -28,7 +28,7 @@ const Hero = () => {
                             <p className="text-white-5">HI 👋 I am Kulbhooshan </p>
                             <p className="text-white-5">Soon to be Software engineer (Hopefully)</p>
                             <p className="text-white-5">Anyway this is my Portfolio and</p>
-                            <p className="text-white-5">docheckout other projects mainly games they are fun</p>
+                            <p className="text-white-5">do checkout other projects mainly games they are fun</p>
                             <p className="text-white-5">Thanks! Have a good Day</p>
 
                     </div>
