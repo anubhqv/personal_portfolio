@@ -1,8 +1,9 @@
+import Hero from "./sections/Hero.jsx";
 const App=()=>{
     return (
-        <div className="App">
-            <h1>Welcome to My Portfolio</h1>
-        </div>
+        <>
+        <Hero />
+        </>
     );
 }
 
