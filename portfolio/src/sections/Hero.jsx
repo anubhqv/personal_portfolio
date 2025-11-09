@@ -1,5 +1,6 @@
 import React from 'react'
 import { words } from '../constants/'
+import Button from '../components/Button.jsx'
 const Hero = () => {
   return (
    <section id="hero" className="relative overflow-hidden">
@@ -25,11 +26,13 @@ const Hero = () => {
                             <h1>into Real Projects</h1>
                             <h1>With Real Impacts</h1>
                         </div>
-                            <p className="text-white-5">HI 👋 I am Kulbhooshan </p>
-                            <p className="text-white-5">Soon to be Software engineer (Hopefully)</p>
-                            <p className="text-white-5">Anyway this is my Portfolio and</p>
-                            <p className="text-white-5">do checkout other projects mainly games they are fun</p>
-                            <p className="text-white-5">Thanks! Have a good Day</p>
+                            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">HI 👋 I am Kulbhooshan 
+                            Final year Computer Science student.
+                            Anyway this is my Portfolio and
+                            do checkout other projects mainly games they are fun
+                            Thanks! Have a good Day</p>
+                            <Button className="md:w-80 md:h-16 w-60 h-12" id="button"
+                            text=" See my work" />
 
                     </div>
                 </header>
