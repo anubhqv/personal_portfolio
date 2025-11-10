@@ -20,7 +20,7 @@
     "react-dom": "^19.1.1",
     "react-responsive": "^10.0.1",
     "tailwindcss": "^4.1.16",
-    "three": "^0.181.0"
+    "three": "^0.181.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
