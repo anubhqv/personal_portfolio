@@ -157,6 +157,10 @@ section {
   .app-showcase {
     @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
 
+    .container{
+      @apply mx-auto;
+    }
+    
     .showcaselayout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
     }
