@@ -8,7 +8,7 @@ const HeroExperience = () => {
     const isMobile=useMediaQuery({query:'(max-width:768px)'});
   return (
     <Canvas camera={{position:[0,0,15],fov:45}}>
-        
+        <ambientLight intensity={10} color="#1a1a40"/>
         <OrbitControls
         enablePan={false}
         enableZoom={!isTablet}
@@ -17,7 +17,7 @@ const HeroExperience = () => {
         minPolarAngle={Math.PI/5}
         maxPolarAngle={Math.PI/2}
         />
-        <HeroLights/>
+        <HeroLights />
         <group
         scale={isMobile? 0.7:1}
         position={[0,-3.5,0]}
@@ -27,5 +27,4 @@ const HeroExperience = () => {
     </Canvas>
   )
 }
-
 export default HeroExperience

@@ -1,11 +1,11 @@
-import { useGLTF, useTexture } from '@react-three/drei'
+import { useGLTF, useTexture } from '@react-three/drei';
 
 import * as THREE from 'three'
 
 export function Room(props) {
   const matcapTexture =useTexture('/images/textures/mat1.png')
   const { nodes, materials } = useGLTF('/models/optimized-room.glb')
-  const curtainMaterial= new THREE.MeshPhongMaterial({Color:'#d90429'})
+  const curtainMaterial= new THREE.MeshPhongMaterial({color:'#d90429'})
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={curtainMaterial} />
