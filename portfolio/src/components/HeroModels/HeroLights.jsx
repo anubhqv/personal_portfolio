@@ -8,6 +8,8 @@ const HeroLights = () => {
      penumbra={0.2}
      color="white"
     />
+    <ambientLight intensity={0.4} color="#6a43f6ff"/>
+    
     <spotLight position={[4,5,4]} 
      angle={0.3}
      intensity={40}
