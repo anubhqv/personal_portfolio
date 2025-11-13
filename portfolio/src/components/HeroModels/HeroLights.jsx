@@ -2,6 +2,7 @@ import * as THREE from 'three';
 const HeroLights = () => {
   return (
     <>
+      <ambientLight intensity={0.8} color="#854442" />
      <spotLight position={[2,5,6]} 
      angle={0.15}
      intensity={100}

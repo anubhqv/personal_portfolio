@@ -40,7 +40,7 @@ export function Room(props) {
   );
 
   const compMaterial = useMemo(
-    () => new THREE.MeshStandardMaterial({ color: "#00000f" }),
+    () => new THREE.MeshPhongMaterial({ color: "#00000f" }),
     []
   );
 
